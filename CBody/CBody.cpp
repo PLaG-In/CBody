@@ -1,11 +1,12 @@
-// CBody.cpp: определяет точку входа для консольного приложения.
-//
-
 #include "stdafx.h"
+#include "CBody.h"
 
 
-int _tmain(int argc, _TCHAR* argv[])
+CBody::CBody(void)
 {
-	return 0;
 }
 
+
+CBody::~CBody(void)
+{
+}
