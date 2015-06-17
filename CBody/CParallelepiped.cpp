@@ -4,7 +4,10 @@
 using namespace std;
 
 CParallelepiped::CParallelepiped(double width, double height, double depth, double density)
-	:CSolidBody(density), m_width(width), m_height(height), m_depth(depth)
+	:CSolidBody(density), 
+	m_width(width),
+	m_height(height),
+	m_depth(depth)
 {
 }
 

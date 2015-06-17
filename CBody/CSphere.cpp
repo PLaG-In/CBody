@@ -4,7 +4,8 @@
 using namespace std;
 
 CSphere::CSphere(double radius, double density)
-	: CSolidBody(density), m_radius(radius)
+	: CSolidBody(density),
+	m_radius(radius)
 {
 }
 

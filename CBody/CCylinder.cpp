@@ -4,7 +4,9 @@
 using namespace std;
 
 CCylinder::CCylinder(double radius, double height, double density)
-	:CSolidBody(density), m_radius(radius), m_height(height)
+	:CSolidBody(density), 
+	m_radius(radius), 
+	m_height(height)
 {
 }
 

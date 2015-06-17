@@ -4,7 +4,9 @@
 using namespace std;
 
 CCompound::CCompound()
-	:m_bodies(), m_volume(0), m_density(0), m_mass(0)
+	:m_bodies(),
+	m_volume(0),
+	m_density(0), m_mass(0)
 {
 }
 
