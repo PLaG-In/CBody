@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AllBodies.h" />
     <ClInclude Include="CBody.h" />
     <ClInclude Include="CCompound.h" />
     <ClInclude Include="CCone.h" />
@@ -97,7 +98,7 @@
     <ClCompile Include="CCylinder.cpp" />
     <ClCompile Include="CParallelepiped.cpp" />
     <ClCompile Include="CSphere.cpp" />
-    <ClCompile Include="SolidBody.cpp" />
+    <ClCompile Include="CSolidBody.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

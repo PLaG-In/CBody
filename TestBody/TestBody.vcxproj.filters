@@ -71,7 +71,7 @@
     <ClCompile Include="..\CBody\CSphere.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="..\CBody\SolidBody.cpp">
+    <ClCompile Include="..\CBody\CSolidBody.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

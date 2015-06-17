@@ -45,6 +45,9 @@
     <ClInclude Include="CSolidBody.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="AllBodies.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -68,7 +71,7 @@
     <ClCompile Include="CSphere.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="SolidBody.cpp">
+    <ClCompile Include="CSolidBody.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="AllBodies.cpp">
